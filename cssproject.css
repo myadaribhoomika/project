@@ -1,0 +1,716 @@
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        overflow-x:hidden;
+    }
+    
+    .spinner{
+      background-color: #81c408;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      padding: 1%;
+      border-radius: 30px;
+      padding-left: 4%;
+      padding-right: 4%;
+      position: relative;
+      z-index: 3;
+    }
+     .navbar{
+      background-color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 2.5%;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+     }
+     .e11a{
+         display: flex;
+        gap: 10%;
+        color: rgb(127, 125, 125);
+        margin-top: 2%;
+        font-size: large;
+
+     }
+     .e11a a{
+        text-decoration: none;
+     }
+     .e11b{
+        display: flex;
+        gap: 25%;
+        color: #81c408;
+        margin-top: 2%;
+        margin-right: 2%;
+        font-size: 160%;
+        padding-right: 5%;
+     }
+     .e11b:hover{
+       color: green;
+     }
+     #hideicon{
+        display: none;
+     }
+     
+     .e12{
+        background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20210924/pngtree-soft-texture-abstract-style-cream-background-image_904545.png ");
+        background-size: cover;
+        display: flex;
+        gap: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-bottom: 6%;
+        padding-top: 1%;
+        background-repeat: no-repeat;
+
+    }
+     form{
+        padding: 3%;
+            border: 2px solid orange;
+            background-color: white;
+            border-radius: 40px;
+            position: relative;
+     } 
+     form:hover{
+      box-shadow: 1px 2px 5px 1px green;
+
+     }
+     .e12a{
+        border: 0;
+        font-size:large ;
+        text-decoration: none;
+        outline: none;
+        width: 60%;
+        margin-right: 0%;
+        
+     }
+    
+     .e12b{
+        border: 2px solid orange;
+        padding: 2.8%;
+        border-radius: 40px;
+        color:white ;
+        background-color: #81c408;
+        font-size: large;
+        border-right: none;
+        position: absolute;
+        right: 0%;
+        bottom: 0%;
+     }
+     .e12b:hover{
+      background-color: orange;
+     }
+    
+    .carousel-indicators .active {
+      background-color:#81c408;
+     }
+    .carousel-control-prev-icon,
+     .carousel-control-next-icon {
+      background-color:#81c408;
+  }
+  @media (max-width:850px){
+    .e11b{
+        display: none;
+    }
+  }
+  /* Media Queries for Mobile Devices (Width < 600px) */
+@media (max-width: 600px) {
+   .spinner {
+       /* flex-direction: column;
+       align-items: center;
+       padding: 2%;
+       font-size: small;
+       text-align: center; */
+       display: none;
+   }
+   
+   .e11 {
+       flex-direction: column;
+       align-items: center;
+       padding: 1%;
+       font-size: small;
+       text-align: center;
+       width: 100%;
+   }
+   
+   .e11a {
+       /* display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 5%;
+       font-size: medium;
+       margin-top: 1%; */
+       display: none;
+   }
+   
+   .e11b {
+       /* display: flex;
+       justify-content: center;
+       gap: 10%;
+       font-size: large;
+       margin-top: 1%; */
+       display: none;
+   }
+   
+   .e11b:hover {
+       color: darkgreen;
+   }
+   #hideicon{
+    display: block;
+   }
+   .e12 {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding: 2% 4%;
+       background-size: cover;
+       background-position: center;
+       width: 100%;
+   }
+   
+   form {
+       width: 100%;
+       max-width: 500px; /* Optional: limit form width for better appearance */
+       padding: 3%;
+       margin: 0 auto;
+   }
+   
+   .e12a {
+       width: 100%;
+       font-size: medium;
+       margin-bottom: 10px; /* Add spacing below the input */
+   }
+   
+   .e12b {
+       width: 40%;
+       height: 100%;
+       padding: 2.5%;
+       font-size: medium;
+       margin-top: 2%;
+   }
+   
+   .e12b:hover {
+       background-color: darkorange;
+   }
+   
+   #carouselExample {
+       width: 100%;
+       height: auto;
+       margin-top: 2%;
+   }
+   
+   .carousel-item img {
+       width: 100%;
+       height: auto;
+   }
+   
+   .carousel-caption h3 {
+       font-size: large;
+       margin-left: 0;
+       background-color: rgba(129, 196, 8, 0.8);
+       width: auto;
+       padding: 2%;
+       text-align: center;
+   }
+
+}
+
+
+     .e13{
+      margin-top: 12%;
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      justify-content: space-around;
+      margin-bottom: 12%;
+
+     }
+     
+     .e13circle{
+      margin-bottom: 7%;
+
+     }
+     .e13circle i {
+      background-color: orange;
+      border-radius: 50%;
+      padding: 16%;
+      height: 280%;
+      color: white;
+      font-size: 300%;
+      
+     }
+     .e13a,.e13b,.e13c,.e13d{
+      background-color: rgb(234, 234, 242);
+      height: 50vh;
+      width: 23vw;
+      padding-top: 10%;
+      padding-left: 2%;
+      padding-bottom: 3%;
+      text-align: center;
+      border-radius: 3%;
+     }
+     .e13a:hover,.e13b:hover,.e13c:hover,.e13d:hover{
+      box-shadow: 1px 2px 3px 1px orangered;
+     }
+     
+     .e14link{
+      display: flex;
+      gap: 10%;
+     }
+     .box{
+      width: 80%;
+     }
+     .box a{
+      color: black;
+      background-color:lavender;
+      text-decoration: none;
+      padding: 2%;
+      border-radius: 50px;
+      margin-left: 6%;
+      width: 25%;
+     }
+     .box a:hover{
+      background-color: orange;
+      color: white;
+     }
+     .frame iframe{
+        width: 100vw;
+        height: 110vh;
+     }
+     .e15cards{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      padding: 3%;
+      gap: 2%;
+     }
+     .e15{
+       margin-top: 10%;
+       margin-bottom: 10%;
+       border: 2px solid orange;
+       border-radius: 5%;
+       height: 70vh; 
+       width: 30vw;
+      position: relative;
+      
+     }
+     .e15a{
+      height: 45vh;
+      margin-top: 55%;
+     }
+     .e15b{
+      background-color:orange;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      height: 23vh;
+      width: 29.8vw;
+     }
+     .e15c{
+      background-color: #81c408;
+      width:20vw;
+      height: 20vh;
+      border-radius: 5%;
+      font-size: large;
+      padding-top: 7%;
+      position: absolute;
+      bottom: 15%;
+      left: 15%;
+     }
+     /* Media Queries for Mobile Devices (Width < 500px) */
+@media (max-width: 600px) {
+   /* Cards Section (e13) */
+   .e13 {
+       margin-top: 5%;
+       display: grid;
+       grid-template-columns: 1fr; /* Single column layout */
+       justify-content: center;
+       margin-bottom: 5%;
+   }
+
+   .e13a, .e13b, .e13c, .e13d {
+       width: 90%; /* Full width with some margin */
+       margin: 0 auto 10px auto; /* Center and add bottom margin */
+       height: auto; /* Adjust height to fit content */
+       padding: 5%;
+       box-sizing: border-box; /* Include padding in width */
+       text-align: center; /* Center text */
+   }
+
+   .e13circle i {
+       padding: 10%;
+       font-size: 200%; /* Adjust font size for mobile */
+   }
+
+   /* Products Section (e14link) */
+   .e14link {
+       text-align: center; /* Center the text and links */
+       padding: 0 5%; /* Add padding for better fit */
+   }
+
+   .e14link p {
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 200%; /* Adjust font size for mobile */
+       margin: 0 auto 10%; /* Center and add bottom margin */
+       width: 90%; /* Full width with some margin */
+   }
+
+   .box {
+       display: flex;
+       flex-direction: column; /* Stack buttons vertically */
+       align-items: center;
+       width: 100%; /* Full width for better fit */
+       padding: 0; /* Remove padding */
+   }
+
+   .box a {
+       width: 80%; /* Adjust width for better fit */
+       margin: 5px 0; /* Adjust spacing between links */
+       padding: 3% 0; /* Adjust padding for mobile */
+       text-align: center; /* Center text */
+   }
+
+   /* Frame for Products */
+   .frame {
+       width: 100%; /* Full width */
+       height: auto; /* Adjust height */
+       overflow: hidden; /* Hide overflow */
+   }
+
+   iframe {
+       width: 100%; /* Full width */
+       height: 400px; /* Adjust height */
+       border: none; /* Remove border */
+   }
+
+   /* Fresh Items Section (e15cards) */
+   .e15cards {
+       display: grid;
+       grid-template-columns: 1fr; /* Single column layout */
+       padding: 2%;
+       gap: 10px; /* Reduced gap for mobile */
+   }
+
+   .e15 {
+       width: 90%; /* Full width with some margin */
+       height: auto; /* Adjust height to fit content */
+       margin: 0 auto; /* Center the card */
+       border: 1px solid orange; /* Adjust border for mobile */
+       border-radius: 5%;
+       position: relative;
+   }
+
+   .e15a img {
+       width: 100%; /* Full width image */
+       height: auto; /* Adjust height to maintain aspect ratio */
+   }
+
+   .e15b {
+       width: 100%; /* Full width of the container */
+       height: auto; /* Adjust height to fit content */
+   }
+
+   .e15c {
+       width: 100%; /* Full width of the container */
+       height: auto; /* Adjust height to fit content */
+       padding: 5%;
+       position: absolute; /* Adjust position for mobile */
+       bottom: 0; /* Position at the bottom */
+       left: 0; /* Align left */
+       text-align: center; /* Center text */
+       background-color: #81c408; /* Adjust background color */
+       border-radius: 0 0 5% 5%; /* Rounded bottom corners */
+       font-size: medium; /* Adjust font size */
+   }
+}
+
+     .e16{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      padding: 3%;
+      gap: 2%;
+      margin-bottom: 2%;
+     }
+     .e16a img{
+      height: 30vh;
+      width: 22vw;
+      align-items: center;
+      border-radius: 10%;
+   }
+   .e16a img:hover{
+         transform: scale(1.04);
+   }
+   .e16a i{
+      color: #81c408;
+   }
+   .e16b{
+      text-align: center;
+   }
+   .e16c{
+      border: 1px solid orange;
+      border-radius: 20px;
+      width: 17vw;
+      padding: 2%;
+      color:#81c408;
+      margin-left: 16%;
+      
+   }
+   .e16c:hover{
+      background-color: orange;
+      color: white;
+   }
+   .e17box{
+      background-color:lavender;
+      border-radius: 3%;
+      height: 75vh;
+      width: 90vw;
+      margin: 5%;
+      margin-top: 10%;
+      gap: 2%;
+      padding: 6%;
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+   }
+   .e17{
+      border: 1px solid;
+      border-radius: 2%;
+      border: none;
+      height: 50vh;
+      width: 18vw;
+      text-align: center;
+      background-color: white;
+      box-shadow: 1px 1px 10px 1px whitesmoke;
+   }
+   .e17:hover{
+   
+      box-shadow: 1px 1px 6px 1px greenyellow;
+
+   }
+   .e17a i{
+     font-size: 500%;
+     color: orange;
+     margin-top: 15%;
+   }
+   .footer{
+      background-color: darkcyan;
+      height: 150vh;
+      width: 98vw;
+      margin-top: 15%;
+      padding: 5%;
+   }
+
+   .e18{
+      display: flex;
+      padding: 2%;
+      justify-content: space-between;
+      margin-top: 5%;
+   }
+  
+   .e18 form{
+       padding: 3%;
+        border: 2px solid orange;
+        background-color: white;
+        border-radius: 40px;
+        position: relative;
+        width:30vw ;
+ } 
+ .e18 form:hover{
+  box-shadow: 1px 2px 5px 1px green;
+
+ }
+ .e18bsearch{
+    border: 0;
+    font-size:large ;
+    text-decoration: none;
+    outline: none;
+    width: 60%;
+    margin-right: 0%;
+    
+ }
+
+ .e18bsmt{
+    border: 2px solid orange;
+    padding: 2.7%;
+    border-radius: 40px;
+    color:white ;
+    background-color: #81c408;
+    font-size: large;
+    border-right: none;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+ }
+ .e18bsmt:hover{
+  background-color: orange;
+ }
+
+   .e18d{
+      display:grid;
+      grid-template-columns: auto auto auto auto;
+      gap: 2.3%;
+      margin-top: 8%; 
+      color: white;
+      cursor: pointer;
+   } 
+   .e18e{
+      display: flex;
+      justify-content: space-between;
+      color: white;
+      margin-top: 8%;
+   }
+   .rdbtn:hover{
+    color:black;
+    background-color: orange;
+    
+   }
+   
+   /* Media Queries for Mobile Devices (Width < 500px) */
+@media (max-width: 600px) {
+   /* Bestselling Products Section (e16) */
+   .e16 {
+       display: grid;
+       grid-template-columns: 1fr; /* Single column layout */
+       gap: 10px; /* Adjust gap for mobile */
+       padding: 0 5%; /* Padding adjusted for mobile */
+       margin-bottom: 5%;
+   }
+
+   .e16a {
+       width: 100%; /* Full width for images */
+       height: auto; /* Adjust height to fit content */
+       text-align: center; /* Center text */
+   }
+
+   .e16a img {
+       width: 100%; /* Full width images */
+       height: auto; /* Maintain aspect ratio */
+       border-radius: 10%;
+       transition: transform 0.3s; /* Smooth scale transition */
+   }
+
+   .e16a img:hover {
+       transform: scale(1.02); /* Slightly reduced scale for mobile */
+   }
+
+   .e16b {
+       text-align: center;
+       padding: 5%; /* Add padding for better fit */
+   }
+
+   .e16c {
+       display: inline-block; /* Make button fit text */
+       width: auto; /* Adjust width to fit content */
+       padding: 5% 10%; /* Adjust padding */
+       color: #81c408;
+       border-radius: 20px;
+       border: 1px solid orange;
+       margin-top: 10px; /* Margin adjusted for mobile */
+   }
+
+   .e16c:hover {
+       background-color: orange;
+       color: white;
+   }
+
+   /* Feedback Section (e17box) */
+   .e17box {
+       background-color: lavender;
+       border-radius: 3%;
+       height: auto; /* Adjust height to fit content */
+       width: 100%; /* Full width */
+       padding: 5%;
+       margin: 0; /* Remove margin for mobile */
+       gap: 10px; /* Adjust gap for mobile */
+       display: grid;
+       grid-template-columns: 1fr; /* Single column layout */
+   }
+
+   .e17 {
+       width: 100%; /* Full width cards */
+       height: auto; /* Adjust height to fit content */
+       text-align: center;
+       border: none; /* Remove border for mobile */
+       background-color: white;
+       box-shadow: 1px 1px 10px 1px whitesmoke;
+       margin-bottom: 10px; /* Add space between cards */
+   }
+
+   .e17:hover {
+       box-shadow: 1px 1px 6px 1px greenyellow;
+   }
+
+   .e17a i {
+       font-size: 200%; /* Adjust icon size for mobile */
+       color: orange;
+       margin-top: 10%; /* Adjust margin for mobile */
+   }
+
+   /* Footer Section */
+   .footer {
+       background-color: darkcyan;
+       height: auto; /* Adjust height to fit content */
+       width: 100%; /* Full width */
+       padding: 5%;
+       margin-top: 0; /* Remove margin for mobile */
+   }
+
+   .e18 {
+       display: block; /* Stack footer sections vertically */
+       width: 100%; /* Full width */
+       padding: 0; /* Remove padding for mobile */
+       margin-top: 0; /* Remove margin for mobile */
+   }
+
+   .e18a, .e18b {
+       width: 100%; /* Full width */
+       height: auto; /* Adjust height to fit content */
+       margin-bottom: 10px; /* Add margin between sections */
+   }
+
+   .e18 form {
+    width: 100%;
+    max-width: 500px; /* Optional: limit form width for better appearance */
+    padding: 3%;
+    margin: 0 auto;
+}
+
+.e18bsearch{
+    width: 100%;
+    font-size: medium;
+    margin-bottom: 10px; /* Add spacing below the input */
+}
+
+.e18bsmt {
+    width: 40%;
+    height: 100%;
+    padding: 2.5%;
+    font-size: medium;
+    margin-top: 2%;
+}
+
+.e18bsmt:hover {
+    background-color: darkorange;
+}
+
+   .e18d {
+       display: block; /* Stack footer content vertically */
+       gap: 10px; /* Add gap between sections */
+       margin-top: 0; /* Remove margin for mobile */
+       color: white;
+       padding: 0; /* Remove padding */
+   }
+
+   .e18e {
+       display: block; /* Stack footer content vertically */
+       gap: 10px; /* Add gap between sections */
+       margin-top: 0; /* Remove margin for mobile */
+       color: white;
+       padding: 0; /* Remove padding */
+   }
+}
+
+   
+
+         

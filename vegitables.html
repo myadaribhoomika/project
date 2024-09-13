@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      .e14{
+      padding: 2%;
+      display:flex;
+      gap:3% ;
+     }
+      .e14a{
+      padding: 2%;
+      border: 1px solid #81c408;
+
+     }
+     .box{
+      position: relative;
+     }
+     h2{
+      position: absolute;
+      bottom: 68%;
+      right: 2%;
+      background-color:#81c408;
+      border-radius: 20%;
+      width: 28%;
+      color: white;
+      padding: 2%;
+
+     }
+     
+     .e14b{
+      font-size: large;
+      color: gray;
+      text-align: center;
+     }
+     .e14c{
+      color: #81c408;
+      border: 1px solid orange;
+      border-radius: 20px;
+      width: 35%;
+      /* height: 5vh; */
+      padding: 2%;
+      margin-left: 9%;
+     }
+     .e14c:hover{
+      background-color: orange;
+      color: white;
+     }
+     .e14cnt{
+        height: 50%;
+        width: 100%;
+     }
+     .box img{
+      transition:all 1.5s;
+     }
+     .box img:hover{
+         transform: scale(1.04);
+     }
+     .e14cnt:hover{
+      box-shadow: 1px 2px 6px 4px gainsboro;
+     }
+      /* Media Queries for Mobile Devices (Width < 500px) */
+@media (max-width: 500px) {
+    .e14 {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        padding: 0; /* Remove padding for mobile */
+        gap: 1% ; /* Reduce gap for mobile */
+    }
+
+    .e14a {
+        width: 100%; /* Full width for mobile */
+        padding: 0; /* Remove padding for mobile */
+        border: none; /* Remove border for mobile */
+    }
+
+    .box img {
+        width: 100%; /* Full width images */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    h2 {
+        position: static; /* Remove absolute positioning */
+        background-color: #81c408;
+        border-radius: 10%;
+        width: auto; /* Adjust width */
+        color: white;
+        padding: 1%;
+        text-align: center; /* Center text */
+        margin-bottom: 5px; /* Margin below image */
+    }
+
+    .e14cnt {
+        width: 90%; /* Full width with margin for mobile */
+        height: auto; /* Adjust height to fit content */
+        padding: 5%; /* Add padding for better spacing */
+        margin-bottom: 10px; /* Space between items */
+    }
+
+    .e14b {
+        font-size: medium; /* Adjust font size for mobile */
+        padding: 0; /* Remove padding */
+    }
+
+    .e14c {
+        height: auto; /* Adjust height */
+        padding: 5%; /* Add padding */
+        margin-left: 0; /* Remove left margin */
+        text-align: center; /* Center text */
+    }
+}
+    </style>
+</head>
+<body>
+    <section class="e14">
+        <div class="e14a">
+          <div class="box">
+             <img src="https://themewagon.github.io/fruitables/img/vegetable-item-5.jpg" alt="" height="230vh" width="550vw" style="border-radius: 3%;">
+             <h2>Vegitable</h2>
+           </div>  
+               <div  class="e14cnt">
+                <h1 style="text-align: center;">Potatoes</h1>
+                  <p class="e14b">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                  <h3 style="margin-left: 9%;"> $7.99 / kg </h3>
+                <h1 class="e14c"><i class="fa-solid fa-lock" style="color: #81c408;"></i> Add to cart</h1>
+               </div>
+         </div>
+        <div class="e14a">
+          <div class="box">
+            <img src="https://themewagon.github.io/fruitables/img/vegetable-item-1.jpg" alt="" height="230vh" width="550vw" style="border-radius: 3%;">
+            <h2>Vegitable</h2>
+            </div>
+              <div  class="e14cnt">
+               <h1 style="text-align: center;">Tomato</h1>
+                 <p class="e14b">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                 <h3 style="margin-left: 9%;"> $7.99 / kg </h3>
+               <h1 class="e14c"><i class="fa-solid fa-lock" style="color: #81c408;"></i> Add to cart</h1>
+              </div>
+        </div>
+        
+     </section>
+</body>
+</html>
